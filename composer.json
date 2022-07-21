@@ -1,0 +1,15 @@
+{
+    "name": "anderson/activerecord",
+    "autoload": {
+        "psr-4": {
+            "Anderson\\Activerecord\\": "src/",
+            "app":"app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anderson Souza"
+        }
+    ],
+    "require": {}
+}
