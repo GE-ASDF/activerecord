@@ -3,8 +3,11 @@
     "autoload": {
         "psr-4": {
             "Anderson\\Activerecord\\": "src/",
-            "app":"app"
-        }
+            "app\\":"app"
+        },
+        "files":[
+            "app/helpers/helpers.php"
+        ]
     },
     "authors": [
         {

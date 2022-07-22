@@ -6,7 +6,15 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit02c536603fd9406d14b6ccc0d5272a5c
 {
+    public static $files = array (
+        '491ccaa329ad0c36200172962afcca25' => __DIR__ . '/../..' . '/app/helpers/helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'app\\' => 4,
+        ),
         'A' => 
         array (
             'Anderson\\Activerecord\\' => 22,
@@ -14,6 +22,10 @@ class ComposerStaticInit02c536603fd9406d14b6ccc0d5272a5c
     );
 
     public static $prefixDirsPsr4 = array (
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'Anderson\\Activerecord\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -22,6 +34,17 @@ class ComposerStaticInit02c536603fd9406d14b6ccc0d5272a5c
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'app\\database\\activerecord\\ActiveRecord' => __DIR__ . '/../..' . '/app/database/activerecord/ActiveRecord.php',
+        'app\\database\\activerecord\\Find' => __DIR__ . '/../..' . '/app/database/activerecord/Find.php',
+        'app\\database\\activerecord\\Insert' => __DIR__ . '/../..' . '/app/database/activerecord/Insert.php',
+        'app\\database\\classes\\Update' => __DIR__ . '/../..' . '/app/database/classes/Update.php',
+        'app\\database\\classes\\UpdateUser' => __DIR__ . '/../..' . '/app/database/classes/UpdateUser.php',
+        'app\\database\\connection\\Connection' => __DIR__ . '/../..' . '/app/database/connection/Connection.php',
+        'app\\database\\interfaces\\ActiveRecordExecuteInterface' => __DIR__ . '/../..' . '/app/database/interfaces/ActiveRecordExecuteInterface.php',
+        'app\\database\\interfaces\\ActiveRecordInterface' => __DIR__ . '/../..' . '/app/database/interfaces/ActiveRecordInterface.php',
+        'app\\database\\interfaces\\InsertInterface' => __DIR__ . '/../..' . '/app/database/interfaces/InsertInterface.php',
+        'app\\database\\interfaces\\UpdateInterface' => __DIR__ . '/../..' . '/app/database/interfaces/UpdateInterface.php',
+        'app\\database\\models\\Usuarios' => __DIR__ . '/../..' . '/app/database/models/Usuarios.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
